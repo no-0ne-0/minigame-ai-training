@@ -13,7 +13,7 @@ width, height = 1000, 1000
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption("jogo")
 
-background = pygame.transform.scale(pygame.image.load("FundoAzul.png"), (width, height))
+background = pygame.transform.scale(pygame.image.load("Background.png"), (width, height))
 font = pygame.font.SysFont("comicsans", 30)
 
 player_speed = 5
@@ -144,3 +144,4 @@ def main(phases, bot=None):
 
 if __name__ == "__main__":
     main()
+
